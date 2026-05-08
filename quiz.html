@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>General Knowledge Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--Title with name-->
+    <div class="container">
+        <h1>General Knowledge Quiz</h1>
+        <div class="name-section">
+            <input type="text" id="nameInput" placeholder="Enter your name" />
+            <button onclick="displayMessage()">Start Quiz</button>
+            <p id="message"></p>
+
+        </div>
+        <hr />
+
+
+        <!--Questions-->
+        <div id="questions-container">
+            <div class="question">
+                <h2>Question 1</h2>
+                <p>What is the capital of Canada?</p>
+                <input type="text" id="q1" />
+            </div>
+
+            <div class="question">
+                <h2>Question 2</h2>
+                <p>What is our planet called?</p>
+                <input type="text" id="q2" />
+            </div>
+
+            <div class="question">
+                <h2>Question 3</h2>
+                <p>What animal is shown below?</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQum62NWJbpa3uqr6ozh7yZxE_sM2prsZCsVg&s" alt="Lion" />
+                <input type="text" id="q3" />
+            </div>
+
+            <div class="question">
+                <h2>Question 4</h2>
+                <p>What class is this?</p>
+                <input type="text" id="q4" />
+            </div>
+        </div>
+
+
+        <!--See more info-->
+        <hr />
+        <p>See more Information</p>
+        <a href="https://en.wikipedia.org/" target="_blank">Visit Wikipedia for Help</a>
+        <hr />
+
+        <!--Mark-->
+
+        <button onclick="mark()" class="mark-btn">Mark Quiz</button>
+        <button onclick="resetQuiz()">Reset Quiz</button>
+        <p id="timer">Time left: 60s</p>
+        <p id="highScore">High Score: 0</p>
+        <div id="result"></div>
+        <hr />
+        <footer>
+            <p>Gabriel Makaerwicz</p>
+            <a href="index.html">About This</a>
+        </footer>
+
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>

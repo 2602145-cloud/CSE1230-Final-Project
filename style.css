@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(in oklab, #00c6ff, #0094ff);
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #222;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+    .question img {
+        width: 250px;
+        border-radius: 8px;
+    }
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+nav a {
+    color: green;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    nav a:hover {
+        text-decoration: underline;
+
+    }
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0026ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #001bb5;
+    }
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.login-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    width: 80%;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#login-message {
+    margin-top: 15px;
+    font-weight: bold;
+}

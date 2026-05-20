@@ -27,13 +27,6 @@ h1 {
         border-radius: 8px;
     }
 
-input[type="text"] {
-    padding: 10px;
-    width: 80%;
-    margin-top: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
 
 nav a {
     color: green;
@@ -61,6 +54,10 @@ button {
         background-color: #001bb5;
     }
 
+#questions-container {
+    display:none;
+}
+
 #result {
     margin-top: 20px;
     font-size: 18px;
@@ -81,6 +78,30 @@ input[type="password"] {
     border: 1px solid #ccc;
 }
 
+input[type="tel"] {
+    padding: 10px;
+    width: 80%;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 #login-message {
     margin-top: 15px;
     font-weight: bold;

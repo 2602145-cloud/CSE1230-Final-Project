@@ -34,27 +34,27 @@
         <div id="questions-container">
             <div class="question">
                 <h2>Question 1</h2>
-                <p>What is the capital of Canada?</p>
-                <input type="text" id="q1" />
+                <p>What language is commonly used for console applications in Unity?</p>
+                <input type="text" id="q1" autocomplete="off"  />
             </div>
 
             <div class="question">
                 <h2>Question 2</h2>
-                <p>What is our planet called?</p>
-                <input type="text" id="q2" />
+                <p>A program used for making games?</p>
+                <input type="text" id="q2" autocomplete="off"  />
             </div>
 
             <div class="question">
                 <h2>Question 3</h2>
-                <p>What animal is shown below?</p>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQum62NWJbpa3uqr6ozh7yZxE_sM2prsZCsVg&s" alt="Lion" />
-                <input type="text" id="q3" />
+                <p>What coding language is shown below?</p>
+                <img src="https://nathanielkam.com/wp-content/uploads/2020/05/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="Lion" />
+                <input type="text" id="q3" autocomplete="off"  />
             </div>
 
             <div class="question">
                 <h2>Question 4</h2>
                 <p>What class is this?</p>
-                <input type="text" id="q4" />
+                <input type="text" id="q4" autocomplete="off"  />
             </div>
         </div>
 
@@ -70,6 +70,7 @@
         <button onclick="mark()" class="mark-btn">Mark Quiz</button>
         <button onclick="resetQuiz()">Reset Quiz</button>
         <p id="timer">Time left: 60s</p>
+        <p id="bank" style="display:none;"></p>
         <p id="highScore">High Score: 0</p>
         <div id="result"></div>
         <button onclick="logout()">Logout</button>

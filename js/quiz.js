@@ -268,7 +268,7 @@ function saveHighScore(score) {
         localStorage.setItem("highScore", score);
     }
 
-    // EVERYONE HIGH SCORE
+    // HIGH SCORE
     const globalHigh =  parseInt(localStorage.getItem("globalHighScore")) || 0;
 
     if (score > globalHigh) {

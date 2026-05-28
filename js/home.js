@@ -55,3 +55,10 @@ function logout() {
 
     window.location.href = "index.html";
 }
+
+
+// LOGIN CHECK
+if (localStorage.getItem("loggedIn") == "true") {
+    alert("Logged in, Please do the quiz and logout!");
+    window.location.href = "quiz.html";
+}

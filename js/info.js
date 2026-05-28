@@ -29,3 +29,4 @@ function nextTopic() {
         currentIndex = 0;
     }
 }
+nextTopic();
